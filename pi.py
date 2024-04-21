@@ -5,3 +5,6 @@ text = """
 
 # TODO
 
+list = list(map(len, text.replace(",","").replace(".","").split()))
+list_a = ''.join(map(str, list))
+print(list_a)
