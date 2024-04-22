@@ -5,8 +5,5 @@ b = input("b の値を入力: ")
 a = int(a)
 b = int(b)
 while b!=0:
-    q = a//b
-    r = a%b
-    a = b
-    b = r
+    a, b = b, a%b
 print(a)
