@@ -9,9 +9,7 @@ def sosuu(n):
   else:
     for i in range(2, n):
         if n % i == 0:
-            A = 0
             return False
-        else:
-            return True
+    return True
         
  
